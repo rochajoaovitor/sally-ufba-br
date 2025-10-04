@@ -529,6 +529,33 @@
           <div class="twocols">
               <div class="twocols">
                  <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
+                    <img src="images/Majela.jpeg" alt="Majela Pentón Machado" style="height: 200px; width: 200px;
+                    border-radius: 50%;">
+                 </div>
+              </div>
+              <div class="business">
+                 <h2>Majela Pentón Machado</h2>
+                 <p class="title">Colaborador e Membro Afiliado</p>
+                 <p style="font-size: 12px;" align="justify">Professora no Departamento de Matemática da UFBA, 
+                  com doutorado em Matemática pelo IMPA. Atua nas áreas de otimização e análise convexa, algoritmos numéricos aplicados à ciência de dados, 
+                  considerando aspectos teóricos e computacionais. 
+                  É membro do grupo Mulheres na Otimização.</p>
+                 <a href="mailto:majentcha@gmail.com" style="display: inline-block;" target="_blank">
+                    <img src="images/email.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="http://lattes.cnpq.br/2841990574625521" style="display: inline-block;" target="_blank">
+                    <img src="images/lattes.webp" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                  <a href="www.linkedin.com/in/majela-pentón-machado-060ba7294" style="display: inline-block;" target="_blank">
+                    <img src="images/linkedin.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="https://orcid.org/0000-0003-1975-8017" style="display: inline-block;" target="_blank">
+                    <img src="images/orcid.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="https://scholar.google.com.br/citations?user=nDV5u7EAAAAJ&hl=pt-BR&oi=ao" style="display: inline-block; padding-right: 8px;" target="_blank">
+                    <img src="images/scholar.png" style="height: 30px; width: 40px;"></a>
+              </div>
+           </div>
+
+           <div class="twocols">
+              <div class="twocols">
+                 <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
                     <img src="images/MohammadKazemi.jpeg" alt="Mohammad Kazemi" style="height: 200px; width: 200px;
                     border-radius: 50%;">
                  </div>
@@ -552,7 +579,13 @@
               </div>
            </div>
 
-           <div class="twocols">
+        </div>
+     </div>
+
+     <div class="container" style="padding-bottom: 40px;">
+        <div class="row">
+
+         <div class="twocols">
               <div class="twocols">
                  <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
                     <img src="images/Nashuad.jpeg" alt="Naushad Mamode Khan" style="height: 200px; width: 200px;
@@ -577,13 +610,6 @@
                     <img src="images/rgate.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
               </div>
            </div>
-           
-
-        </div>
-     </div>
-
-     <div class="container" style="padding-bottom: 40px;">
-        <div class="row">
 
          <div class="twocols">
             <div class="twocols">
@@ -610,6 +636,14 @@
             </div>
          </div>
 
+      
+         
+        </div>
+     </div>
+
+     <div class="container" style="padding-bottom: 40px;">
+      <div class="row">
+
          <div class="twocols">
             <div class="twocols">
                <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -631,12 +665,7 @@
                   <img src="images/orcid.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
             </div>
          </div>
-         
-        </div>
-     </div>
 
-     <div class="container" style="padding-bottom: 40px;">
-      <div class="row">
          <div class="twocols">
             <div class="twocols">
                <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -663,6 +692,10 @@
                   <img src="images/linkedin.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
             </div>
          </div>
+   </div>
+
+   <div class="container" style="padding-bottom: 40px;">
+      <div class="row">
 
        <div class="twocols">
           <div class="twocols">
@@ -675,7 +708,7 @@
              <h2>Winita Sulandari</h2>
              <p class="title">Colaborador e Membro Afiliado</p>
              <p style="font-size: 12px;" align="justify">Professora assistente no Departamento de Estatística da Universitas Sebelas Maret.
-                Interesses de pesquisa são análise e previsão de séries temporais para dados de alta frequência com padrões complexos,
+                Interesses de pesquisa são séries temporais para dados de alta frequência com padrões complexos,
                 com foco em análise de espectro singular, séries temporais fuzzy e redes neurais.</p>
              <a href="mailto:wnidha@yahoo.com" style="display: inline-block;" target="_blank">
                 <img src="images/email.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
@@ -1518,7 +1551,9 @@
       </footer>
       <!-- Data automática para footer -->
       <script>
-         $('#spanYear').html(new Date().getFullYear());
+         document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spanYear').textContent = new Date().getFullYear();
+         });
       </script>
       <!-- end footer -->
       <!-- Javascript files-->

@@ -483,7 +483,9 @@
       </footer>
       <!-- Data automática para footer -->
       <script>
-         $('#spanYear').html(new Date().getFullYear());
+         document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spanYear').textContent = new Date().getFullYear();
+         });
       </script>
       <!-- end footer -->
       <!-- Javascript files-->

@@ -138,7 +138,7 @@
                <img src="images/card3sallyday.png" alt="card__image" class="card__image" width="600" style="display: block; object-fit: cover; max-width: 100%;">
             </div>
             <div class="card_a__body" style="height: 300px;">
-               <span class="tag tag-brown">Open Registration!</span>
+               <span class="tag tag-red">Past Event</span>
                <p style="font-size: 26px; color: black; text-align: center;">3rd SaLLy Day</p>
                <p style="font-size: 12px;" align="center"><b>3rd SaLLy Day</b>, Federal University of Bahia, November 20th, 2025.</p>
                <div class="row">
@@ -146,7 +146,7 @@
                      <div class="titlepage">
                         <div class="business_box">
                            <a class="read_more" href="3rdSaLLyDay.html" target="_blank">
-                              Register Now!</a>
+                              Remember the 3rd SaLLy Day (PT-BR)</a>
                         </div>
                      </div>
                   </div>
@@ -297,7 +297,9 @@
       </footer>
       <!-- Data automática para footer -->
       <script>
-         $('#spanYear').html(new Date().getFullYear());
+         document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spanYear').textContent = new Date().getFullYear();
+         });
       </script>
       <!-- end footer -->
       <!-- Javascript files-->

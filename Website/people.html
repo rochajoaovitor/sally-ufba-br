@@ -95,7 +95,7 @@
                                     <a class="nav-link" href="contact.html">Contact</a>
                                  </li>
                                  <li class="nav-item dropdown">
-                                    <a class="nav-link dropbtn" href="EventosSaLLy.html" style="background-color:yellow; color: black;">SaLLy Events</a>
+                                    <a class="nav-link dropbtn" href="SaLLyEvents.html" style="background-color:yellow; color: black;">SaLLy Events</a>
                                     <div class="dropdown-content">
                                        <a href="1stSaLLyDay.html" style="font-size: 13px;">1stSaLLy Day</a>
                                        <a href="2ndSaLLyDay.html" style="font-size: 13px;">2ndSaLLy Day</a>
@@ -529,6 +529,35 @@
 
       <div class="container" style="padding-bottom: 40px;">
          <div class="row">
+
+            <div class="twocols">
+              <div class="twocols">
+                 <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
+                    <img src="images/Majela.jpeg" alt="Majela Pentón Machado" style="height: 200px; width: 200px;
+                    border-radius: 50%;">
+                 </div>
+              </div>
+              <div class="business">
+                 <h2>Majela Pentón Machado</h2>
+                 <p class="title">Collaborator & Affiliate Member</p>
+                 <p style="font-size: 12px;" align="justify">
+                  Professor in the Department of Mathematics at UFBA,
+                  with a Ph.D. in Mathematics from IMPA. 
+                  Works in the areas of optimization and convex analysis, and numerical algorithms applied to data science.
+                  She is a member of the Mulheres na Otimização group.</p>
+                 <a href="mailto:majentcha@gmail.com" style="display: inline-block;" target="_blank">
+                    <img src="images/email.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="http://lattes.cnpq.br/2841990574625521" style="display: inline-block;" target="_blank">
+                    <img src="images/lattes.webp" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                  <a href="www.linkedin.com/in/majela-pentón-machado-060ba7294" style="display: inline-block;" target="_blank">
+                    <img src="images/linkedin.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="https://orcid.org/0000-0003-1975-8017" style="display: inline-block;" target="_blank">
+                    <img src="images/orcid.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
+                 <a href="https://scholar.google.com.br/citations?user=nDV5u7EAAAAJ&hl=pt-BR&oi=ao" style="display: inline-block; padding-right: 8px;" target="_blank">
+                    <img src="images/scholar.png" style="height: 30px; width: 40px;"></a>
+              </div>
+           </div>
+
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -554,6 +583,15 @@
                      <img src="images/rgate.png" style="height: 30px; width: 40px; padding-right: 8px;"></a> 
                </div>
             </div>
+            
+
+
+         </div>
+      </div>
+
+      <div class="container" style="padding-bottom: 40px;">
+         <div class="row">
+
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -575,12 +613,7 @@
                      <img src="images/rgate.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
                </div>
             </div>
-            
-         </div>
-      </div>
 
-      <div class="container" style="padding-bottom: 40px;">
-         <div class="row">
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -605,6 +638,13 @@
                      <img src="images/scholar.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
                </div>
             </div>
+            
+         </div>
+      </div>
+
+      <div class="container" style="padding-bottom: 40px;">
+         <div class="row">
+
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -627,11 +667,7 @@
                      <img src="images/orcid.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
                </div>
             </div>
-         </div>
-      </div>
 
-      <div class="container" style="padding-bottom: 40px;">
-         <div class="row">
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -658,6 +694,13 @@
                      <img src="images/linkedin.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
                </div>
             </div>
+            
+         </div>
+      </div>
+
+      <div class="container" style="padding-bottom: 40px;">
+         <div class="row">
+
             <div class="twocols">
                <div class="twocols">
                   <div class="card" style="height: 200px; width: 200px; border-radius: 50%;">
@@ -679,6 +722,7 @@
                      <img src="images/orcid.png" style="height: 30px; width: 40px; padding-right: 8px;"></a>
                </div>
             </div>
+
          </div>
       </div>
 
@@ -1506,7 +1550,9 @@
       </footer>
       <!-- Data automática para footer -->
       <script>
-         $('#spanYear').html(new Date().getFullYear());
+         document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('spanYear').textContent = new Date().getFullYear();
+         });
       </script>
       <!-- end footer -->
       <!-- Javascript files-->
